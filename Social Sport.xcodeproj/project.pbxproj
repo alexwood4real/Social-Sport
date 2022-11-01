@@ -1,0 +1,588 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		62D075C72911CFC6005D65FE /* Social_SportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D075C62911CFC6005D65FE /* Social_SportApp.swift */; };
+		62D075C92911CFC6005D65FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D075C82911CFC6005D65FE /* ContentView.swift */; };
+		62D075CB2911CFC7005D65FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D075CA2911CFC7005D65FE /* Assets.xcassets */; };
+		62D075CE2911CFC7005D65FE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D075CD2911CFC7005D65FE /* Preview Assets.xcassets */; };
+		62D075D82911CFC7005D65FE /* Social_SportTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D075D72911CFC7005D65FE /* Social_SportTests.swift */; };
+		62D075E22911CFC7005D65FE /* Social_SportUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D075E12911CFC7005D65FE /* Social_SportUITests.swift */; };
+		62D075E42911CFC7005D65FE /* Social_SportUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D075E32911CFC7005D65FE /* Social_SportUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		62D075D42911CFC7005D65FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62D075BB2911CFC6005D65FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62D075C22911CFC6005D65FE;
+			remoteInfo = "Social Sport";
+		};
+		62D075DE2911CFC7005D65FE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 62D075BB2911CFC6005D65FE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62D075C22911CFC6005D65FE;
+			remoteInfo = "Social Sport";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		62D075C32911CFC6005D65FE /* Social Sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Sport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D075C62911CFC6005D65FE /* Social_SportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_SportApp.swift; sourceTree = "<group>"; };
+		62D075C82911CFC6005D65FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		62D075CA2911CFC7005D65FE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		62D075CD2911CFC7005D65FE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		62D075D32911CFC7005D65FE /* Social SportTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social SportTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D075D72911CFC7005D65FE /* Social_SportTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_SportTests.swift; sourceTree = "<group>"; };
+		62D075DD2911CFC7005D65FE /* Social SportUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Social SportUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		62D075E12911CFC7005D65FE /* Social_SportUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_SportUITests.swift; sourceTree = "<group>"; };
+		62D075E32911CFC7005D65FE /* Social_SportUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_SportUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		62D075C02911CFC6005D65FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D075D02911CFC7005D65FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D075DA2911CFC7005D65FE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		62D075BA2911CFC6005D65FE = {
+			isa = PBXGroup;
+			children = (
+				62D075C52911CFC6005D65FE /* Social Sport */,
+				62D075D62911CFC7005D65FE /* Social SportTests */,
+				62D075E02911CFC7005D65FE /* Social SportUITests */,
+				62D075C42911CFC6005D65FE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		62D075C42911CFC6005D65FE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				62D075C32911CFC6005D65FE /* Social Sport.app */,
+				62D075D32911CFC7005D65FE /* Social SportTests.xctest */,
+				62D075DD2911CFC7005D65FE /* Social SportUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62D075C52911CFC6005D65FE /* Social Sport */ = {
+			isa = PBXGroup;
+			children = (
+				62D075C62911CFC6005D65FE /* Social_SportApp.swift */,
+				62D075C82911CFC6005D65FE /* ContentView.swift */,
+				62D075CA2911CFC7005D65FE /* Assets.xcassets */,
+				62D075CC2911CFC7005D65FE /* Preview Content */,
+			);
+			path = "Social Sport";
+			sourceTree = "<group>";
+		};
+		62D075CC2911CFC7005D65FE /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				62D075CD2911CFC7005D65FE /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		62D075D62911CFC7005D65FE /* Social SportTests */ = {
+			isa = PBXGroup;
+			children = (
+				62D075D72911CFC7005D65FE /* Social_SportTests.swift */,
+			);
+			path = "Social SportTests";
+			sourceTree = "<group>";
+		};
+		62D075E02911CFC7005D65FE /* Social SportUITests */ = {
+			isa = PBXGroup;
+			children = (
+				62D075E12911CFC7005D65FE /* Social_SportUITests.swift */,
+				62D075E32911CFC7005D65FE /* Social_SportUITestsLaunchTests.swift */,
+			);
+			path = "Social SportUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		62D075C22911CFC6005D65FE /* Social Sport */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D075E72911CFC7005D65FE /* Build configuration list for PBXNativeTarget "Social Sport" */;
+			buildPhases = (
+				62D075BF2911CFC6005D65FE /* Sources */,
+				62D075C02911CFC6005D65FE /* Frameworks */,
+				62D075C12911CFC6005D65FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Social Sport";
+			productName = "Social Sport";
+			productReference = 62D075C32911CFC6005D65FE /* Social Sport.app */;
+			productType = "com.apple.product-type.application";
+		};
+		62D075D22911CFC7005D65FE /* Social SportTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D075EA2911CFC7005D65FE /* Build configuration list for PBXNativeTarget "Social SportTests" */;
+			buildPhases = (
+				62D075CF2911CFC7005D65FE /* Sources */,
+				62D075D02911CFC7005D65FE /* Frameworks */,
+				62D075D12911CFC7005D65FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62D075D52911CFC7005D65FE /* PBXTargetDependency */,
+			);
+			name = "Social SportTests";
+			productName = "Social SportTests";
+			productReference = 62D075D32911CFC7005D65FE /* Social SportTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		62D075DC2911CFC7005D65FE /* Social SportUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 62D075ED2911CFC7005D65FE /* Build configuration list for PBXNativeTarget "Social SportUITests" */;
+			buildPhases = (
+				62D075D92911CFC7005D65FE /* Sources */,
+				62D075DA2911CFC7005D65FE /* Frameworks */,
+				62D075DB2911CFC7005D65FE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62D075DF2911CFC7005D65FE /* PBXTargetDependency */,
+			);
+			name = "Social SportUITests";
+			productName = "Social SportUITests";
+			productReference = 62D075DD2911CFC7005D65FE /* Social SportUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		62D075BB2911CFC6005D65FE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					62D075C22911CFC6005D65FE = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					62D075D22911CFC7005D65FE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 62D075C22911CFC6005D65FE;
+					};
+					62D075DC2911CFC7005D65FE = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 62D075C22911CFC6005D65FE;
+					};
+				};
+			};
+			buildConfigurationList = 62D075BE2911CFC6005D65FE /* Build configuration list for PBXProject "Social Sport" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 62D075BA2911CFC6005D65FE;
+			productRefGroup = 62D075C42911CFC6005D65FE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62D075C22911CFC6005D65FE /* Social Sport */,
+				62D075D22911CFC7005D65FE /* Social SportTests */,
+				62D075DC2911CFC7005D65FE /* Social SportUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		62D075C12911CFC6005D65FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D075CE2911CFC7005D65FE /* Preview Assets.xcassets in Resources */,
+				62D075CB2911CFC7005D65FE /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D075D12911CFC7005D65FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D075DB2911CFC7005D65FE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		62D075BF2911CFC6005D65FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D075C92911CFC6005D65FE /* ContentView.swift in Sources */,
+				62D075C72911CFC6005D65FE /* Social_SportApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D075CF2911CFC7005D65FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D075D82911CFC7005D65FE /* Social_SportTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62D075D92911CFC7005D65FE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				62D075E42911CFC7005D65FE /* Social_SportUITestsLaunchTests.swift in Sources */,
+				62D075E22911CFC7005D65FE /* Social_SportUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62D075D52911CFC7005D65FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62D075C22911CFC6005D65FE /* Social Sport */;
+			targetProxy = 62D075D42911CFC7005D65FE /* PBXContainerItemProxy */;
+		};
+		62D075DF2911CFC7005D65FE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 62D075C22911CFC6005D65FE /* Social Sport */;
+			targetProxy = 62D075DE2911CFC7005D65FE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		62D075E52911CFC7005D65FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		62D075E62911CFC7005D65FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		62D075E82911CFC7005D65FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Social Sport/Preview Content\"";
+				DEVELOPMENT_TEAM = 9A4SG77JLL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderWood.Social-Sport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		62D075E92911CFC7005D65FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Social Sport/Preview Content\"";
+				DEVELOPMENT_TEAM = 9A4SG77JLL;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderWood.Social-Sport";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		62D075EB2911CFC7005D65FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A4SG77JLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderWood.Social-SportTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social Sport.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Social Sport";
+			};
+			name = Debug;
+		};
+		62D075EC2911CFC7005D65FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A4SG77JLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderWood.Social-SportTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Social Sport.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Social Sport";
+			};
+			name = Release;
+		};
+		62D075EE2911CFC7005D65FE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A4SG77JLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderWood.Social-SportUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Social Sport";
+			};
+			name = Debug;
+		};
+		62D075EF2911CFC7005D65FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9A4SG77JLL;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "AlexanderWood.Social-SportUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Social Sport";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		62D075BE2911CFC6005D65FE /* Build configuration list for PBXProject "Social Sport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D075E52911CFC7005D65FE /* Debug */,
+				62D075E62911CFC7005D65FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D075E72911CFC7005D65FE /* Build configuration list for PBXNativeTarget "Social Sport" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D075E82911CFC7005D65FE /* Debug */,
+				62D075E92911CFC7005D65FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D075EA2911CFC7005D65FE /* Build configuration list for PBXNativeTarget "Social SportTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D075EB2911CFC7005D65FE /* Debug */,
+				62D075EC2911CFC7005D65FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		62D075ED2911CFC7005D65FE /* Build configuration list for PBXNativeTarget "Social SportUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				62D075EE2911CFC7005D65FE /* Debug */,
+				62D075EF2911CFC7005D65FE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 62D075BB2911CFC6005D65FE /* Project object */;
+}
