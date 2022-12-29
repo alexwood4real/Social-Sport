@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		625A6956295CE72800A98140 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625A6955295CE72800A98140 /* Login.swift */; };
+		625A6958295D091900A98140 /* DashboardRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625A6957295D091900A98140 /* DashboardRow.swift */; };
+		625A695A295D0AB500A98140 /* DashboardList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625A6959295D0AB500A98140 /* DashboardList.swift */; };
 		62D075C72911CFC6005D65FE /* Social_SportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D075C62911CFC6005D65FE /* Social_SportApp.swift */; };
 		62D075C92911CFC6005D65FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D075C82911CFC6005D65FE /* ContentView.swift */; };
 		62D075CB2911CFC7005D65FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D075CA2911CFC7005D65FE /* Assets.xcassets */; };
@@ -34,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		625A6955295CE72800A98140 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		625A6957295D091900A98140 /* DashboardRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardRow.swift; sourceTree = "<group>"; };
+		625A6959295D0AB500A98140 /* DashboardList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardList.swift; sourceTree = "<group>"; };
 		62D075C32911CFC6005D65FE /* Social Sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Sport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D075C62911CFC6005D65FE /* Social_SportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_SportApp.swift; sourceTree = "<group>"; };
 		62D075C82911CFC6005D65FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -71,6 +77,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		625A695B295D0E2C00A98140 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				62D075C82911CFC6005D65FE /* ContentView.swift */,
+				625A695C295D0E4200A98140 /* Dashboard */,
+				625A6955295CE72800A98140 /* Login.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		625A695C295D0E4200A98140 /* Dashboard */ = {
+			isa = PBXGroup;
+			children = (
+				625A6959295D0AB500A98140 /* DashboardList.swift */,
+				625A6957295D091900A98140 /* DashboardRow.swift */,
+			);
+			path = Dashboard;
+			sourceTree = "<group>";
+		};
 		62D075BA2911CFC6005D65FE = {
 			isa = PBXGroup;
 			children = (
@@ -95,7 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				62D075C62911CFC6005D65FE /* Social_SportApp.swift */,
-				62D075C82911CFC6005D65FE /* ContentView.swift */,
+				625A695B295D0E2C00A98140 /* View */,
 				62D075CA2911CFC7005D65FE /* Assets.xcassets */,
 				62D075CC2911CFC7005D65FE /* Preview Content */,
 			);
@@ -257,7 +282,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				625A6956295CE72800A98140 /* Login.swift in Sources */,
 				62D075C92911CFC6005D65FE /* ContentView.swift in Sources */,
+				625A695A295D0AB500A98140 /* DashboardList.swift in Sources */,
+				625A6958295D091900A98140 /* DashboardRow.swift in Sources */,
 				62D075C72911CFC6005D65FE /* Social_SportApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,14 +1,13 @@
 //
-//  ContentView.swift
+//  Login.swift
 //  Social Sport
 //
-//  Created by OG Brown Skin on 11/1/22.
+//  Created by OG Brown Skin on 12/28/22.
 //
 
 import SwiftUI
 
-
-struct ContentView: View {
+struct Login: View {
     @State private var username = ""
     @State private var password = ""
     var body: some View {
@@ -35,8 +34,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct Login_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        Login()
     }
 }
