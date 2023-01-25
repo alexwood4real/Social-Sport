@@ -20,6 +20,7 @@ struct DashboardList: View {
                 Spacer()
                 Image(systemName: "person.crop.circle")
             }
+            .padding()
             List {
                 DashboardRow()
             }

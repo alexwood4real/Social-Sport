@@ -13,7 +13,8 @@
 		625A695E2964CFE600A98140 /* Rsvp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625A695D2964CFE600A98140 /* Rsvp.swift */; };
 		625A696029675DB700A98140 /* Reservation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625A695F29675DB700A98140 /* Reservation.swift */; };
 		625A6962296760E000A98140 /* Team.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625A6961296760E000A98140 /* Team.swift */; };
-		625A69652967678600A98140 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625A69642967678600A98140 /* File.swift */; };
+		625A69652967678600A98140 /* Event.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625A69642967678600A98140 /* Event.swift */; };
+		625A6969297EC04A00A98140 /* QRCodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 625A6968297EC04A00A98140 /* QRCodeView.swift */; };
 		62D075C72911CFC6005D65FE /* Social_SportApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D075C62911CFC6005D65FE /* Social_SportApp.swift */; };
 		62D075C92911CFC6005D65FE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62D075C82911CFC6005D65FE /* ContentView.swift */; };
 		62D075CB2911CFC7005D65FE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62D075CA2911CFC7005D65FE /* Assets.xcassets */; };
@@ -47,7 +48,8 @@
 		625A695D2964CFE600A98140 /* Rsvp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rsvp.swift; sourceTree = "<group>"; };
 		625A695F29675DB700A98140 /* Reservation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reservation.swift; sourceTree = "<group>"; };
 		625A6961296760E000A98140 /* Team.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Team.swift; sourceTree = "<group>"; };
-		625A69642967678600A98140 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		625A69642967678600A98140 /* Event.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Event.swift; sourceTree = "<group>"; };
+		625A6968297EC04A00A98140 /* QRCodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeView.swift; sourceTree = "<group>"; };
 		62D075C32911CFC6005D65FE /* Social Sport.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Social Sport.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		62D075C62911CFC6005D65FE /* Social_SportApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Social_SportApp.swift; sourceTree = "<group>"; };
 		62D075C82911CFC6005D65FE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -90,7 +92,7 @@
 			children = (
 				62D075C82911CFC6005D65FE /* ContentView.swift */,
 				625A695C295D0E4200A98140 /* Dashboard */,
-				625A6955295CE72800A98140 /* Login.swift */,
+				625A696B2980BCBA00A98140 /* Trash */,
 				625A695D2964CFE600A98140 /* Rsvp.swift */,
 			);
 			path = View;
@@ -108,11 +110,20 @@
 		625A6963296761DC00A98140 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				625A6968297EC04A00A98140 /* QRCodeView.swift */,
 				625A6961296760E000A98140 /* Team.swift */,
-				625A69642967678600A98140 /* File.swift */,
+				625A69642967678600A98140 /* Event.swift */,
 				625A695F29675DB700A98140 /* Reservation.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		625A696B2980BCBA00A98140 /* Trash */ = {
+			isa = PBXGroup;
+			children = (
+				625A6955295CE72800A98140 /* Login.swift */,
+			);
+			path = Trash;
 			sourceTree = "<group>";
 		};
 		62D075BA2911CFC6005D65FE = {
@@ -304,12 +315,13 @@
 			files = (
 				625A6956295CE72800A98140 /* Login.swift in Sources */,
 				62D075C92911CFC6005D65FE /* ContentView.swift in Sources */,
+				625A6969297EC04A00A98140 /* QRCodeView.swift in Sources */,
 				625A695E2964CFE600A98140 /* Rsvp.swift in Sources */,
 				625A695A295D0AB500A98140 /* DashboardList.swift in Sources */,
 				625A6962296760E000A98140 /* Team.swift in Sources */,
 				625A6958295D091900A98140 /* DashboardRow.swift in Sources */,
 				625A696029675DB700A98140 /* Reservation.swift in Sources */,
-				625A69652967678600A98140 /* File.swift in Sources */,
+				625A69652967678600A98140 /* Event.swift in Sources */,
 				62D075C72911CFC6005D65FE /* Social_SportApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
