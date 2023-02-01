@@ -6,10 +6,22 @@
 //
 
 import Foundation
+import SwiftUI
 
-struct Event {
+class Event: Identifiable {
     var name: String
-    var team1: Team
-    var team2: Team
-    // TODO: put location 
+    var team1: String
+    var team2: String
+    var sport: String
+    // TODO: put location
+    
+    var imageName: String
+    
+    init(name: String, team1: String, team2: String, sport: String, imageName: String) {
+        self.name = name
+        self.team1 = team1
+        self.team2 = team2
+        self.sport = sport
+        self.imageName = imageName
+    }
 }

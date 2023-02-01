@@ -7,12 +7,14 @@
 
 import Foundation
 
-struct Reservation: Hashable, Codable /*, Identifiable */ {
+class Reservation: ObservableObject {
     var name: String
-    var team: Team
+    var team: String
     var guests: String
-    /**
-     let myString1 = "556"
-     let myInt1 = Int(myString1)
-     */
+    
+    init(name: String, team: String, guests: String) {
+        self.name = name
+        self.team = team
+        self.guests = guests
+    }
 }

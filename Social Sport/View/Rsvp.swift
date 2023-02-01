@@ -7,27 +7,33 @@
 
 import SwiftUI
 
+/// make a RSVP model
+
 struct Rsvp: View {
-    @State private var name: String = ""
-    @State private var team: String = ""
-    @State private var people: String = ""
+    // @Published var aReservation: Reservation
+    // @State var name: String
+    // @State var team: String
+    // @State var guests: String
     
     var body: some View {
         VStack{
             // name
             HStack {
                 Text("Name: ")
-                TextField("Your name", text: $name)
+                // TextField("Your name", text: aReservation.name)
+                // TextField("Your name", text: $name)
             }
             // team
             HStack {
                 Text("What Team?")
-                TextField("Your team", text: $team)
+                // TextField("Your team", text: aReservation.team)
+                // TextField("Your team", text: $team)
             }
             // people
             HStack {
                 Text("Number of People?")
-                TextField("Expected number of guests", text: $team)
+                // TextField("Expected number of guests", text: aReservation.guests)
+                // TextField("Expected number of guests", text: $guests)
             }
             HStack{
                 Spacer()
@@ -45,6 +51,7 @@ struct Rsvp: View {
 
 struct Rsvp_Previews: PreviewProvider {
     static var previews: some View {
+        // Rsvp(name: "Alex", team: "Chelsea", guests: "2")
         Rsvp()
     }
 }

@@ -8,6 +8,9 @@
 import SwiftUI
 
 struct DashboardList: View {
+    
+    @State var theEventList = EventVM()
+    
     var body: some View {
         VStack {
             HStack {
@@ -21,8 +24,10 @@ struct DashboardList: View {
                 Image(systemName: "person.crop.circle")
             }
             .padding()
-            List {
-                DashboardRow()
+            List(theEventList.events) { aEvent in
+                NavigationLink(destination: Rsvp()) {
+                    
+                }
             }
         }
     }

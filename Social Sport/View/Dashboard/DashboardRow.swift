@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct DashboardRow: View {
+    var theEvent: Event
     var body: some View {
         HStack {
             Image(systemName: "trash")
@@ -17,9 +18,9 @@ struct DashboardRow: View {
             
             VStack {
                 HStack {
-                    Text("Game Title")
+                    Text(theEvent.name)
                         .fontWeight(.heavy)
-                    Image(systemName: "soccerball")
+                    Image(systemName: theEvent.imageName)
                 }
                 HStack {
                     Text("Location")
@@ -30,13 +31,13 @@ struct DashboardRow: View {
             Spacer()
             
             // this will later be replaced with NavigationView to RSVP
-            Image(systemName: "star")
+            // Image(systemName: "star")
         }
     }
 }
 
 struct Dashboard_Previews: PreviewProvider {
     static var previews: some View {
-        DashboardRow()
+        DashboardRow(theEvent: Event(name: "Alex", team1: "team1", team2: "team2", sport: "soccer", imageName: "soccerball"))
     }
 }
